@@ -1,5 +1,5 @@
-## **B1. Problem Formulation
-**
+## B1. Problem Formulation
+
 (a)
 
 This can be framed as a machine learning problem where the goal is to predict how well a promotion will perform at a given store in a given month.
@@ -27,7 +27,7 @@ One option is to build separate models for different segments (e.g., urban vs ru
 
 This makes sense because customer behavior and promotion effectiveness can vary a lot depending on location, and a single model may average out these differences.
 
-## **B2. Data and EDA Strategy**
+## B2. Data and EDA Strategy
 
 (a)
 
@@ -78,8 +78,8 @@ Include clear promotion-related features
 Evaluate model performance separately for promoted vs non-promoted cases
 
 
-## **B3. Model Evaluation and Deployment
-**
+## B3. Model Evaluation and Deployment
+
 (a)
 
 Since the data is time-based, I would use a temporal train-test split. For example, train on the first ~2.5 years and test on the most recent months.
